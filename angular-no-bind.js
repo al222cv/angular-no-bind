@@ -5,7 +5,7 @@ angular.module('noBind').directive('noBind', ['$timeout', function($timeout) {
     	link: function(scope, element){
     		$timeout(function(){
     			element.removeClass('ng-binding ng-scope');
-    			scope.$destroy
+    			scope.$destroy();
     		}, 0);
     	}
     };
