@@ -9,4 +9,4 @@ angular.module('noBind').directive('noBind', ['$timeout', function($timeout) {
     		}, 0);
     	}
     };
-});
+}]);
