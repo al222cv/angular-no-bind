@@ -1,4 +1,4 @@
-angular.module('noBind').directive('noBind', ['$timeout', function($timeout) {
+angular.module('noBind',[]).directive('noBind', ['$timeout', function($timeout) {
     return{
     	restrict: 'AC',
     	scope: true,
